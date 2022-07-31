@@ -5,7 +5,7 @@ I have done this project with these steps:
 
 Firstly, I have watched the Youtube video : https://www.youtube.com/watch?v=nLxA9froMOs
 
-After I got what he did, I start coding <b>without looking video.</br> (No parrot style)
+After I got what he did, I start coding <b>without looking video</b> (No parrot style)
 
 When sometimes I stuck in some cases, I turn back the video and checked the part that I struggle.
 
