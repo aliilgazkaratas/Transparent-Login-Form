@@ -1,0 +1,76 @@
+*{
+    box-sizing:border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html,body{
+    margin: 0;
+}
+
+.full-screen-container{
+    background-image: url("background_image.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-screen{
+    background-color: rgba(0, 26, 255, 0.475);
+    padding: 10px;
+    min-width: 22%;
+    max-width: 30%;
+    width: 25%;
+}
+
+.login-title{
+    text-align: center;
+    font-size: lighter;
+}
+.inputss{
+    display: flex;
+    
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.inputss label{
+    margin-bottom: 10px;
+    font-size: lighter;
+    color: black;
+}
+.inputss input{
+    background: none;
+    background-color: rgba(127, 255, 212, 0.549);
+    border: 1px solid rgb(173, 173, 35);
+    outline:rgb(73, 73, 17);
+    border-radius: 0.5em;
+    height: 30px;
+}
+.inputss input:focus{
+    background-color: rgb(106, 0, 255);
+    color: wheat;
+    font-size: lighter;
+    border: 1px solid rgb(1, 173, 35);
+}
+.Sign-in{
+    width: 100%;
+    border:1px solid rgb(173, 173, 35);
+    padding:10px 10px;
+    margin-top: 10px;
+    background-color: rgba(131, 224, 0, 0.553);
+    border-radius: 1em;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.Sign-in:hover{
+    background-color: brown;
+}
+.Sign-in:focus{
+
+    background-color: blue;
+}
+
+/*Focus kavramı, cursor: pointer;, bazı konuları kontrol ,her blok için tekrar tekrar div aynı div koymak*/
